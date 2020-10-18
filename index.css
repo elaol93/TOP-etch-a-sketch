@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(24, 24, 24);
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(245, 245, 245, 0.836);
+    text-align: center;
+}
+
+#copyright {
+    font-size: 0.7em;
+}
+
+.container {
+    height: 75vh;
+    width: 75vh;
+    margin: auto;
+    border: 3px solid white;
+    padding: 0px;
+    border-radius: 7px;
+
+    display: grid;
+    /* grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(16, 1fr); */
+}
+
+.gridPart {
+    color: white;
+    border: 1px solid rgb(68, 68, 68);
+    background-color:hsl(0, 0%, 14%);
+}
+
+button {
+    position: relative;
+    top: 2vh;
+    transform: scale(1.3);
+}
+
